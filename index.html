@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+<head> <!-- Meta Tagos come first!-->
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- Bootstrap CSS before customized CSS-->
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+	<link rel="stylesheet" href="pokeStyles.css">
+	<title>Pokémon Adventure Time</title>
+
+	<!-- These are the steps that you had to do and almost missed:
+	
+	https://learn.nucamp.co/mod/book/view.php?id=2490&chapterid=3101
+
+	install dependencies, go through all of it again!
+	set meta tags, style sheets up at top, insert code down below
+	install and init npm, node modules, and more . Do all over again!-->
+
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col m-5 text-center">
+					<h1>Your Pokémon Adventure Game</h1>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="container">
+		<div class="row">
+			<div class="col" id = "top">
+				Hi, welcome to the world of Pokémon!
+			</div>
+			<div class="col">
+				<input id="input" style="display:none" type="text" name="input">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				Bottom Text Goes Here
+			</div>
+			<div class="col">
+				<button id ="go"> Go! </button>
+				<button id ="submit" style="display: none"> Submit! </button> 
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				Play Area
+			</div>
+		</div>
+	</div>
+
+	<script src="index.js"></script>
+	<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+	<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+

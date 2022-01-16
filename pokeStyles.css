@@ -1,0 +1,10 @@
+.col {
+  border-style: solid;
+  border-color: black;
+  font-size: 40px;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(32, 176, 219);
+}
