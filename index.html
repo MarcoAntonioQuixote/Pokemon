@@ -32,32 +32,63 @@
 		</div>
 	</header>
 
+
+
 	<div class="container">
 		<div class="row">
-			<div class="col" id = "top">
-				Hi, welcome to the world of Pokémon!
+			<div class="textBox col col-8" id="textBox">
+				<!-- Text animates here! -->
 			</div>
-			<div class="col">
-				<input id="input" style="display:none" type="text" name="input">
-			</div>
-		</div>
-		<div class="row">
-			<div class="col">
-				Bottom Text Goes Here
-			</div>
-			<div class="col">
-				<button id ="go"> Go! </button>
-				<button id ="submit" style="display: none"> Submit! </button> 
+			<div class="col col-4">
+				<input id="input" style="display:none" type="text" name="input" size=20 autofocus="true">
 			</div>
 		</div>
 		<div class="row">
-			<div class="col">
-				Play Area
+			<div class="col col-8" id = "real-top">
+				<!--Hi! Welcome to the world of Pokémon!-->
+				[Use this space to provide future text] <br>`[Insert ALT TEXT here.]`
+			</div>
+			<div class="col col-4">
+				<input id="input2" style="display:none" type="text" name="input" size=20 autofocus="true">
 			</div>
 		</div>
-	</div>
+		<div class="row">
+			<div class="col col-8" id="top">
+				Click PLAY to get started!
+			</div>
+			<div class="col col-4">
+				<button id ="go" autofocus="true"> Play! </button>
+				<button id ="submit" for="input" style="display:none"> Submit! </button> 
+			</div>
+		</div>
+		<div class="row">
+			<div class="col" id="play">
+				Play Area: <br> Place Animations Here
+			</div>
+		</div>
 
+	</div>
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col" id="O1">
+					Text 1
+				</div>
+				<div class="col" id="O2">
+					Text 2
+				</div>
+				<div class="col" id="O3">
+					Console Code
+				</div>
+				<div class="col" id="O4">
+					Text 4
+				</div>
+			</div>
+		</div>
+	</footer>
+	
 	<script src="index.js"></script>
+	<script src="displayer.js"></script>
 	<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
 	<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
 	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>

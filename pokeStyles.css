@@ -1,10 +1,75 @@
 .col {
   border-style: solid;
   border-color: black;
-  font-size: 40px;
+  font-size: 28px;
   text-align: center;
+}
+
+.textBox {
+  color: white;
+  font-size: 2vw;
+  word-spacing: 0.2em;
+  margin: auto;
+  width: auto;
+  background: rgb(58, 58, 58);
+  padding: 1em;
+  border-bottom: 1vw solid #0e6dad;
+  align-items: stretch;
+  line-height: 1.2em;
+}
+
+.textBox span {
+  opacity: 0;
+}
+.textBox span.revealed {
+  opacity: 1;
+}
+
+.textBox span.red {
+  color: #c00020;
+  font-weight: 600;
+}
+
+#top {
+  font-size: 30px;
+  word-spacing: 0.2em; /*larger*/
+  padding: .5em;
+  border-bottom: 5px solid #ebf1f5;
+}
+#real-top {
+  font-size: 14px;
 }
 
 body {
   background-color: rgb(32, 176, 219);
+  font-family: 'Franklin Gothic Extra Light', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer {
+  color: white;
+  position: fixed; /* fixed */
+  bottom: 0%;
+  margin-right: auto;
+  margin-left: auto;
+  width:100%;
+}
+
+#O1,#O2,#O3,#O4{
+  font-size: 28px;
+}
+
+#top,#real-top {
+  color: white;
+  background:rgb(66, 66, 66);
+}
+
+#play{
+  position: relative;
+  height: auto;
+  font-size: 30px;
+}
+
+#input, #go, #submit {
+  font-size: 24px;
+  margin-top: 2vh;
 }
