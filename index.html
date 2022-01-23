@@ -23,51 +23,23 @@
 
 <body>
 	<header>
-		<div class="container">
-			<div class="row">
-				<div class="col m-5 text-center">
-					<h1>Your Pokémon Adventure Game</h1>
-				</div>
-			</div>
-		</div>
+		<div>Your Pokémon Adventure Game</div>
 	</header>
-
-
 
 	<div class="container">
 		<div class="row">
-			<div class="textBox col col-8" id="textBox">
-				<!-- Text animates here! -->
-			</div>
-			<div class="col col-4">
-				<input id="input" style="display:none" type="text" name="input" size=20 autofocus="true">
-			</div>
+		  <div id="play" class="col col-12 col-md-8 col-lg-12 order-md-2 order-lg-5">Play Area: <br> 	Place Animations Here</div>
+		  <div id="display" class="col col-12 col-md-4 col-lg-8 order-md-1 order-lg-3">Click 	<strong>Play</strong> to get started!</div>
+		  <div id="textBox" class="col col-12 col-md-9 col-lg-8 order-md-3 order-lg-1 textBox"></div>
+		  <div id="inputCol" class="col col-12 col-md-3 col-lg-4 order-md-4 order-lg-2" >
+			  <input id="input" style="display:none" type="text" name="input" size=18 autofocus="true"></div>
+		  <div id="buttons" class="col col-12 col-md-3 col-lg-4 order-md-5 order-lg-4 offset-md-9 offset-lg-0 align-items-center">
+			  <button id ="go" autofocus="true"> Play!</button>
+			  <button id ="submit" for="input" style="display:none"> Submit!</button>
+		  </div>
 		</div>
-		<div class="row">
-			<div class="col col-8" id = "real-top">
-				<!--Hi! Welcome to the world of Pokémon!-->
-				[Use this space to provide future text] <br>`[Insert ALT TEXT here.]`
-			</div>
-			<div class="col col-4">
-				<input id="input2" style="display:none" type="text" name="input" size=20 autofocus="true">
-			</div>
-		</div>
-		<div class="row">
-			<div class="col col-8" id="top">
-				Click PLAY to get started!
-			</div>
-			<div class="col col-4">
-				<button id ="go" autofocus="true"> Play! </button>
-				<button id ="submit" for="input" style="display:none"> Submit! </button> 
-			</div>
-		</div>
-		<div class="row">
-			<div class="col" id="play">
-				Play Area: <br> Place Animations Here
-			</div>
-		</div>
-
 	</div>
+
 	<footer class="footer">
 		<div class="container">
 			<div class="row">
@@ -95,9 +67,3 @@
 
 </body>
 </html>
-
-
-
-
-
-

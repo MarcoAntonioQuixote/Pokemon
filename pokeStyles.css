@@ -1,21 +1,47 @@
+body {
+  background-image: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701908613.jpg");
+  font-family: 'Franklin Gothic Extra Light', 'Arial Narrow', Arial, sans-serif;
+  color:ghostwhite;
+}
+
+header {
+  margin: 4vh 0 4vh 0;
+  border-top: solid white;
+  border-bottom: solid white;
+  text-align: center;
+  font-size: 5vh;
+}
+
+footer {
+  position: fixed; /* fixed */
+  bottom: 0%;
+  width:100%;
+}
+
+#play{
+  height: 45vh;
+  border: 3px dotted;
+  font-size: 10vh;
+}
+@media screen and (max-width: 576px) {
+  #play{
+    height: 40vh;
+  }
+}
+
 .col {
   border-style: solid;
-  border-color: black;
-  font-size: 28px;
+  border-color: white;
+  font-size: 3vh;
   text-align: center;
 }
 
 .textBox {
-  color: white;
-  font-size: 2vw;
+  font-size: 3vh; /*(5px + 1.5vw);*/
   word-spacing: 0.2em;
-  margin: auto;
-  width: auto;
-  background: rgb(58, 58, 58);
+  background: rgb(41,41,41);
   padding: 1em;
-  border-bottom: 1vw solid #0e6dad;
-  align-items: stretch;
-  line-height: 1.2em;
+  border-bottom: .5vh solid #011929;
 }
 
 .textBox span {
@@ -30,46 +56,17 @@
   font-weight: 600;
 }
 
-#top {
-  font-size: 30px;
-  word-spacing: 0.2em; /*larger*/
-  padding: .5em;
-  border-bottom: 5px solid #ebf1f5;
-}
-#real-top {
-  font-size: 14px;
-}
-
-body {
-  background-color: rgb(32, 176, 219);
-  font-family: 'Franklin Gothic Extra Light', 'Arial Narrow', Arial, sans-serif;
-}
-
-footer {
-  color: white;
-  position: fixed; /* fixed */
-  bottom: 0%;
-  margin-right: auto;
-  margin-left: auto;
-  width:100%;
+#buttons,#inputCol {
+  font-size: 3vh;
+  border: none;
+  margin-top: 1.5vh;
 }
 
 #O1,#O2,#O3,#O4{
-  font-size: 28px;
+  font-size: 2.5vh;
 }
 
 #top,#real-top {
   color: white;
-  background:rgb(66, 66, 66);
-}
-
-#play{
-  position: relative;
-  height: auto;
-  font-size: 30px;
-}
-
-#input, #go, #submit {
-  font-size: 24px;
-  margin-top: 2vh;
+  background:rgb(41, 41, 41);
 }

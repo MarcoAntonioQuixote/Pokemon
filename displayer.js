@@ -1,5 +1,8 @@
 var tb = document.getElementById("textBox");
 
+var b = document.getElementById("bottom");
+
+
 var speeds = {
 	pause: 250,
 	slow: 120,
